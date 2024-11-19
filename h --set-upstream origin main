@@ -1,0 +1,17 @@
+[33mcommit df5a570b209268f650828a84dff7dfef42cd1b28[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Sandhya7080 <gaikwadsandhya7080@gmail.com>
+Date:   Tue Nov 19 13:39:58 2024 +0530
+
+    Updated Application.properties
+
+[33mcommit 1e18682fcebc5a134166d28689c9e37a376075bb[m
+Author: Sandhya7080 <gaikwadsandhya7080@gmail.com>
+Date:   Tue Nov 19 13:38:39 2024 +0530
+
+    Add application.properties file
+
+[33mcommit f607163338aa5ad76c1fc83c50f4706da5e75f4b[m
+Author: Sandhya7080 <gaikwadsandhya7080@gmail.com>
+Date:   Mon Nov 18 16:35:11 2024 +0530
+
+    created Libray project
