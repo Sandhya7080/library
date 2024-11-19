@@ -1,12 +1,11 @@
 package com.cse.library.Service;
-// BookService.java
 
 import com.cse.library.Model.Book;
 import com.cse.library.Repository.BookRepository;
+import com.cse.library.Repository.QueryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.management.Query;
 import java.util.List;
 
 @Service
@@ -34,8 +33,9 @@ public class BookService {
     }
 
     // Fetch all user queries
-    public List<Query> getAllQueries() {
+    public List<?> getAllQueries() {
         return queryRepository.findAll();
     }
-}
 
+
+}

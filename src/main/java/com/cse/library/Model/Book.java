@@ -1,5 +1,5 @@
 package com.cse.library.Model;
-// Book.java
+
 import jakarta.persistence.*;
 
 @Entity
@@ -12,6 +12,16 @@ public class Book {
     private String bookName;
     private String author;
     private String description;
+
+    // Default constructor
+    public Book() {}
+
+    // Parameterized constructor
+    public Book(String bookName, String author, String description) {
+        this.bookName = bookName;
+        this.author = author;
+        this.description = description;
+    }
 
     // Getters and Setters
     public Long getId() {
